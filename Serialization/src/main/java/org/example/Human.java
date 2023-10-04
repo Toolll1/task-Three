@@ -6,7 +6,7 @@ class Human implements Serializable {
 
     private final String name;
     private final int age;
-    private final Activity activity;
+    private final transient Activity activity;
 
     public Human(String name, int age) {
         this.name = name;
